@@ -1,21 +1,7 @@
 n=int(input())
 lst=list(map(int, input().split()))
-
-
-
 lst=set(lst)
-
-
-
 lst=list(lst)
-
-
-    
-
-
 lst.sort()
 a=len(lst)
-
-
-
 print(lst[a-2])
