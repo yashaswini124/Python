@@ -1,0 +1,17 @@
+n=int(input())
+lst=[]
+avg=00.00
+for _ in range(n):
+    cmd=input().split()
+    lst.append(cmd)
+    
+name=input()
+
+for i in range (n):
+    if name==lst[i][0]:
+        avg=(float(lst[i][1])+float(lst[i][2])+float(lst[i][3]))/3      
+        
+         
+print(f"{avg:.2f}")
+        
+        
